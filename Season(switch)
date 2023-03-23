@@ -1,0 +1,25 @@
+// Создайте переменную month и присвойте ей значение целого чила от 1 до 12 (номер месяца). 
+// Создайте переменную season, в которой получите название поры года, используя оператор switch
+// 'Winter', если номер месяца 12, 1 или 2,
+// 'Spring', если номер месяца 3, 4, 5, 
+// 'Summer', если номер месяца 6, 7, 8, 
+// Error', в противном случае.
+
+let month = 12;
+let season;
+switch (month) {
+    case 12:
+    case 1:
+    case 2: season = "Winter"; break;
+    case 3:
+    case 4:
+    case 5: season = "Spring"; break;
+    case 6:
+    case 7:
+    case 8: season = "Summer"; break;
+    case 9:
+    case 10:
+    case 11: season = "Fall";
+    default: season = "Error";
+}
+console.log(season)

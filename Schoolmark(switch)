@@ -1,0 +1,21 @@
+// Создайте переменную mark и присвойте ей значение целого чила от 1 до 5. 
+// Создайте переменную name, в которой получите словесное описание отметки.
+// 'Excellent', если mark = 5,
+// 'Good', если mark = 4,
+// 'Satisfactory', если mark = 3,
+// 'Unsatisfactory', если mark = 2,
+// 'Bad', если mark = 1,
+// 'Error', в противном случае.
+
+let mark = 5;
+let name;
+switch(mark) {
+    case 5: name = "Excellent"; break;
+    case 4: name = "Good"; break;
+    case 3: name = "Satisfactory"; break;
+    case 2: name = "Unsatisfactory"; break;
+    case 1: name = "Bad"; break;
+    default: name = "Error"
+}
+
+console.log(name);

@@ -1,0 +1,25 @@
+// Создайте переменную month и присвойте ей значение целого чила от 1 до 12 (номер месяца). 
+// Создайте переменную name .
+// Используя оператор switch, получите в переменной  значения: 'January', 'February',
+// 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November',
+// 'December' (для значений от 1 до 12), и 'Error', в противном случае.
+
+
+let month = 9;
+let name;
+switch (month) {
+    case 1: name = "January"; break;
+    case 2: name = "February"; break;
+    case 3: name = "March"; break;
+    case 4: name = "April"; break;
+    case 5: name = "May"; break;
+    case 6: name = "June"; break;
+    case 7: name = "July"; break;
+    case 8: name = "August"; break;
+    case 9: name = "September"; break;
+    case 10: name = "October"; break;
+    case 11: name = "November"; break;
+    case 12: name = "December"; 
+    default: name = "Error"; 
+}
+console.log(name);

@@ -1,0 +1,24 @@
+// Создайте переменную day и присвойте ей значение целого чила от 1 до 7 (номер дня). 
+// Создайте переменную name и используя оператор switch, получите в переменной  значение:
+// 'Monday', если day = 1,
+// 'Tuesday', если day = 2,
+// 'Wednesday', если day = 3,
+// 'Thursday', если day = 4,
+// 'Friday', если day = 5,
+// 'Saturday', если day = 6,
+// 'Sunday', если day = 7,
+// 'Error', в противном случае.
+
+let day = 6;
+let name;
+switch (day) {
+    case 1: name = "Monday"; break;
+    case 2: name = "Tuesday"; break;
+    case 3: name = "Wednesday"; break;
+    case 4: name = "Thursday"; break;
+    case 5: name = "Friday"; break;
+    case 6: name = "Saturday"; break;
+    case 7: name = "Sunday"; 
+    default: name = "Error";
+}
+console.log(name);
